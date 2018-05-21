@@ -7,8 +7,13 @@ categories: 技术
 
 3月份到现在，接手了一个react-native的项目。
 
-第一次接触移动端开发，感受挺深，虽然react-native的技术栈是javascript，但是这和以往在浏览器里面开发的体验是很不一样的，
-如果用一句话来总结的话，我想表达的是，`一个纯写js的人，是根本不能很好的用react-native完成一个中大型的项目的`，这个以后再展开来讲，今天要说的是一个坑。
+<!--more-->
+
+第一次接触移动端开发，感受挺深，虽然react-native的技术栈是javascript，但是这和以往在浏览器里面开发的体验是很不一样的，如果用一句话来总结的话，我想表达的是，
+
+**一个纯写js的人，是根本不能很好的用react-native完成一个中大型的项目的！**
+
+这个以后再展开来讲，今天要说的是一个坑。
 
 本来一直好好的项目，从昨天开始就出现问题了————运行`react-native run-android` 报错了。具体报错如下：
 
@@ -53,9 +58,9 @@ Total time: 1 mins 0.629 secs
 
 很顺利，我搜到了相关内容，原来是react-native@0.47的breaking changes。它移除了createJSModule.
 
-大家给的办法是注释@@Override，或者干脆删了这个方法。
+大家给的办法是注释@Override，或者干脆删了这个方法巴拉巴拉等等方法。
 
-我想了想，不对啊。我之前用的好好的，怎么突然出现了问题？还要我去改node_modules里面的代码？这是不正确的操作。
+我想了想，不对啊。我之前用的好好的，都用了一个月了，怎么突然出现了问题？还要我去改node_modules里面的代码？这是不正确的操作。
 
 我又读了一下README.md。
 
@@ -67,9 +72,9 @@ For React Native >= 0.40, use v3.1.0 up til 3.2.2.
 For React Native <= 0.39, use v3.0.0 or lower.
 ```
 
-我又对照了一下package.json，react-native-audio的版本也已经固定为3.2.2。rn的版本，明明是`0.41.2`，。怎么会出现`0.47+`才出现的错误？
+我又对照了一下package.json，react-native-audio的版本也已经固定为3.2.2。rn的版本，明明是`0.41.2`，怎么会出现`0.47+`才出现的错误？
 
-```
+```bash
 $ npm list react-native
 DeviceApp@0.0.1 D:\ZZH-WorkingSpace\deviceApp
 `-- react-native@0.41.2
@@ -96,3 +101,9 @@ subprojects {
 }
 Change to whatever RN version you are using
 ```
+
+虽然不太懂gradle的配置，但是看到了`force`，猜也能猜出来是强制指定react-native的版本了。但是这让我很不解，到底是为什么突然出现这个错误？我又继续请教了这个热心网友，他说：
+
+> Someone uploaded 0.55.3 react native version to one of maven repositories, and it was automatically used while resolving dependencies without specific versions. This broke thousands of projects.
+
+这样看来rn社区倒也是挺奇葩的 =_=! 不过这件事暂时就告一段落了。想了解更多对话细节的同学，可以去看看那个issue。
