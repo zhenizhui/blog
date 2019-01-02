@@ -48,15 +48,14 @@ reward:
 # Social links Settings
 # ===========================================
 social:
-  email: your@email.com
+  email: zhenizhui@qq.com
   stack-overflow:
   twitter:
   facebook:
   linkedin:
   google:
-  github:
-  weibo:
-  zhihu:
+  github: https://github.com/zhenizhui
+  weibo: https://weibo.com/2645373772/profile
   douban:
   pocket:
   tumblr:

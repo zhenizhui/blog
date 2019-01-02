@@ -5,9 +5,7 @@ date: 2018-01-26 09:43:33
 
 ## 关于我
 
-hello，我是zhenizhui，90后，目前在广州工作，是一名程序员。
-
-欢迎光临小站，这里，请允许我自我介绍一下。
+hello，我是zhenizhui，90后，目前在广州工作，是一名前端开发工程师。
 
 ### 技术栈
 
@@ -21,8 +19,7 @@ hello，我是zhenizhui，90后，目前在广州工作，是一名程序员。
 
 ### 联系我
 
-+ `GITHUB`: [zhenizhui](https://github.com/)
++ `GITHUB`: [zhenizhui](https://github.com/zhenizhui)
 + `V2EX`: [zhenizhui](https://www.v2ex.com/member/zhenizhui)
 + `WEIBO`: [@zhenizhui](https://weibo.com/2645373772/profile)
-+ `ZHIHU`: [zhenizhui](https://www.zhihu.com/people/zhenizhui/activities)
 + `EMAIL`: zhenizhui#qq.com
