@@ -1,8 +1,8 @@
 ---
 title: 自定义radio和checkbox
 date: 2017-04-23 22:00:33
-tag: [前端]
-categories: 技术
+tag: [CSS]
+categories: 前端
 ---
 
 原生的radio控件和checkbox实在是太普通了(~~其实是太丑了~~)，有些时候甚至和页面的其他漂亮的元素格格不入，那么如何对他们进行美化呢？

@@ -2,7 +2,7 @@
 title: react-native-camera扫码的局限性
 date: 2018-06-12 12:30:33
 tag: [react-native]
-categories: 技术
+categories: 前端
 ---
 
 这篇文章主要讲讲我使用react-native-camera实现扫描二维码过程中发现的一个问题。

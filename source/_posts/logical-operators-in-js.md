@@ -1,7 +1,7 @@
 ---
 title: var a = {} && []; a = ?
 tags: JavaScript
-categories: 技术
+categories: 前端
 date: 2018-1-31 20:34:14
 ---
 

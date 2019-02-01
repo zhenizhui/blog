@@ -1,8 +1,8 @@
 ---
 title: 如何让div自动占满剩下的宽度
 date: 2018-12-14 19:30:33
-tag: [前端, css]
-categories: 技术
+tag: [CSS]
+categories: 前端
 ---
 
 场景：一个div里面有两个div，其中一个定高，需要另外一个div自动占据剩下的空间，怎么做？有多少种方法？

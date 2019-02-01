@@ -2,7 +2,7 @@
 title: 初探redis
 date: 2018-08-04 17:30:33
 tag: [redis]
-categories: 技术
+categories: 后端
 ---
 
 记录redis学习与使用

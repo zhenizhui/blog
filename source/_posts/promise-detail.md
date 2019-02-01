@@ -1,8 +1,8 @@
 ---
 title: Promise细节问题
 date: 2019-04-7 23:00:33
-tag: [异步编程, 前端]
-categories: 技术
+tag: [异步编程, JavaScript]
+categories: 前端
 ---
 
 重新梳理一下 Promise 的细节问题，巩固基础

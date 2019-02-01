@@ -2,7 +2,7 @@
 title: 纪录react native开发过程遇到的一个坑
 date: 2018-05-17 23:30:33
 tag: [react-native]
-categories: 技术
+categories: 前端
 ---
 
 3月份到现在，接手了一个react-native的项目。

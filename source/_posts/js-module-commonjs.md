@@ -1,6 +1,6 @@
 ---
 title: JavaScript模块化之CommonJS
-tags: [前端, JavaScript]
+tags: [JavaScript]
 categories: 前端
 date: 2019-01-01 21:34:19
 ---
