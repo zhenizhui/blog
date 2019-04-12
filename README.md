@@ -1,3 +1,9 @@
+## Blog
+
+以下是我写的文章，有任何写的不好的地方，欢迎批评指正，多多交流。
+
+Email: zhenizhui@qq.com
+
 ### 2019
 
 + [Vue复杂表单代码优化之道](https://blog.zhenizhui.com/2019/05/01/vue-complex-form-code-optimization/)
@@ -13,6 +19,7 @@
 + [纪录react native开发过程遇到的一个坑](https://blog.zhenizhui.com/2018/05/17/problem-with-react-native/)
 + [我所了解的异步JavaScript(1)](https://blog.zhenizhui.com/2018/04/23/asynchronous-in-js-that-i-know-1/)
 + [var a = {} && []; a = ?](https://blog.zhenizhui.com/2018/01/31/logical-operators-in-js/)
+
 ### 2017
 
 + [水平垂直居中的实现方式](https://blog.zhenizhui.com/2017/11/01/how-vertical-centering/)
