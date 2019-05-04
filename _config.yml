@@ -81,3 +81,11 @@ deploy:
   repo: https://git.coding.net/zhenizhui/blog.git
   branch: master
   message: 'update article'
+
+archive_generator:
+  enabled: true
+  per_page: 30
+  yearly: true
+  monthly: true
+  daily: false
+  order_by: -date  
