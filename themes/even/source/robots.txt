@@ -1,4 +1,12 @@
+# welcome to : blog.zhenizhui.space
 User-agent: *
-Disallow: /tags/
-Disallow: /page/
-Disallow: /categories/
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /about/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /lib/
+Sitemap: https://blog.zhenizhui.space/sitemap.xml
